@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <LoggingSystem>
+    <Appenders>
+      <Debug sources="*"/>
+      <File file="Log.txt" append="false" sources="*" />
+      <Console sources="*" />
+    </Appenders>
+  </LoggingSystem>
+</Config>
